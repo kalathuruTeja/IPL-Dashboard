@@ -1,0 +1,122 @@
+/* Write your CSS here */
+
+.app-container {
+  margin-top: 25px;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: 500;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  border-radius: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.details-card-container {
+  width: 70%;
+}
+.team {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+}
+.date {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+}
+.venue {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+}
+.result {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+}
+.team-logo {
+  max-height: 60px;
+}
+.line {
+  border: 1px solid #475569;
+  width: 100%;
+}
+.details-cards-container {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.innings {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+}
+.innings-result {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+}
+
+@media All and (min-width: 768px) {
+  .card-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .logo {
+    width: 65%;
+    padding-left: 32px;
+    padding-right: 0px;
+  }
+  .details-card-container {
+    width: 50%;
+    align-self: flex-start;
+  }
+  .team {
+    font-size: 36px;
+  }
+  .date {
+    font-size: 24px;
+  }
+  .result {
+    font-size: 16px;
+  }
+  .venue {
+    font-size: 16px;
+  }
+  .team-logo {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .line {
+    display: none;
+  }
+  .details-cards-container {
+    text-align: right;
+    width: 33%;
+    padding-left: 0px;
+    padding-right: 32px;
+  }
+  .innings {
+    font-size: 16px;
+  }
+  .innings-result {
+    font-size: 16px;
+  }
+}
